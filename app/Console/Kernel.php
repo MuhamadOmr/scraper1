@@ -40,9 +40,9 @@ class Kernel extends ConsoleKernel
             $appdb = new appdb() ;
 
 
-            $appdb->updateDB(new CIB);
-
             $appdb->updateDB(new AAIB);
+
+            $appdb->updateDB(new CIB);
 
             $appdb->updateDB(new CBE);
 

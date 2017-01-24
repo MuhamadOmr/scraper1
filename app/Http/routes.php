@@ -52,9 +52,9 @@ Route::get('/', function() {
     $appdb = new appdb() ;
 
 
-    $appdb->updateDB(new CIB);
-
     $appdb->updateDB(new AAIB);
+
+    $appdb->updateDB(new CIB);
 
     $appdb->updateDB(new CBE);
 
