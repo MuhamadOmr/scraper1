@@ -11,12 +11,13 @@
 |
 */
 use App\Http\scrape\AAIB;
+use App\Http\scrape\Alex;
 use App\Http\scrape\appdb;
 use App\Dollar;
-use Goutte\Client;
-use Weidner\Goutte\GoutteFacadeGoutte;
-use GuzzleHttp\Client as GuzzleClient;
+use App\Http\scrape\CBE;
 use App\Http\scrape\CIB;
+use App\Http\scrape\MISR;
+use App\Http\scrape\NBE;
 
 Route::get('/', function() {
 
@@ -27,9 +28,25 @@ Route::get('/', function() {
 //    $cib->scrape();
 //
 //
-//    $aaib = new aaib();
+//    $cbe = new CBE();
 //
-//    $aaib->scrape($aaib->url);
+//    $cbe->scrape();
+//
+//
+//    $misr = new MISR();
+//
+//    $misr->scrape();
+//
+//    $alex = new Alex();
+//
+//    $alex->scrape();
+//
+//    $nbe = new NBE();
+//
+//    $nbe->scrape();
+//
+
+
 
 
     $appdb = new appdb() ;
@@ -39,6 +56,14 @@ Route::get('/', function() {
 
     $appdb->updateDB(new AAIB);
 
+    $appdb->updateDB(new CBE);
+
+
+    $appdb->updateDB(new Alex);
+
+    $appdb->updateDB(new NBE);
+
+    $appdb->updateDB(new MISR);
 
 
 
