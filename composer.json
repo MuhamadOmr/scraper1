@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*",
+        "laravel/framework": "5.3.*",
         "weidner/goutte": "@dev",
         "guzzlehttp/guzzle": "^6.0",
         "symfony/css-selector": "^3.0",
