@@ -22,6 +22,15 @@ use App\Http\scrape\NBE;
 Route::get('/', function() {
 
 
+
+});
+
+Route::group (['prefix'=>'api/v1'],function(){
+
+   Route::get('prices','PricesController@index');
+
+});
+
 //
 //    $cib = new CIB();
 //
@@ -47,25 +56,25 @@ Route::get('/', function() {
 //
 
 
-
-
-    $appdb = new appdb() ;
-
-
-    $appdb->updateDB(new AAIB);
-
-    $appdb->updateDB(new CIB);
-
-    $appdb->updateDB(new CBE);
-
-
-    $appdb->updateDB(new Alex);
-
-    $appdb->updateDB(new NBE);
-
-    $appdb->updateDB(new MISR);
-
-
+//
+//
+//    $appdb = new appdb() ;
+//
+//
+//    $appdb->updateDB(new AAIB);
+//
+//    $appdb->updateDB(new CIB);
+//
+//    $appdb->updateDB(new CBE);
+//
+//
+//    $appdb->updateDB(new Alex);
+//
+//    $appdb->updateDB(new NBE);
+//
+//    $appdb->updateDB(new MISR);
+//
+//
 
 //
 //    $client = new Client();
@@ -97,8 +106,6 @@ Route::get('/', function() {
 //
 //
 
-
-});
 
 //
 //Route::get('/', function () {

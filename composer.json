@@ -11,7 +11,8 @@
         "guzzlehttp/guzzle": "^6.0",
         "symfony/css-selector": "^3.0",
         "symfony/browser-kit": "^3.0",
-        "fabpot/goutte": "^3.2"
+        "fabpot/goutte": "^3.2",
+        "spatie/laravel-fractal": "^3.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

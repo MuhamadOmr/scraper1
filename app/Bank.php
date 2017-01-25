@@ -20,4 +20,15 @@ class Bank extends Model
 
         return $this->hasOne('App\Dollar');
     }
+
+
+    public function  euro (){
+
+        return $this->hasOne('App\Euro');
+    }
+
+    public function  sar (){
+
+        return $this->hasOne('App\Sar');
+    }
 }
