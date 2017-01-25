@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "acc281864c86ab6bb5c09a3c775fa044",
+    "hash": "dc8ee74d1c119f25fc4f2db4d93b642f",
     "content-hash": "67148e8ee5be90453ab79cb5af7cd113",
     "packages": [
         {
@@ -658,16 +658,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.32",
+            "version": "1.0.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "1b5c4a0031697f46e779a9d1b309c2e1b24daeab"
+                "reference": "5c7f98498b12d47f9de90ec9186a90000125777c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1b5c4a0031697f46e779a9d1b309c2e1b24daeab",
-                "reference": "1b5c4a0031697f46e779a9d1b309c2e1b24daeab",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5c7f98498b12d47f9de90ec9186a90000125777c",
+                "reference": "5c7f98498b12d47f9de90ec9186a90000125777c",
                 "shasum": ""
             },
             "require": {
@@ -737,7 +737,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-10-19 20:38:46"
+            "time": "2017-01-23 10:32:09"
         },
         {
             "name": "monolog/monolog",
@@ -819,16 +819,16 @@
         },
         {
             "name": "mtdowling/cron-expression",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtdowling/cron-expression.git",
-                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5"
+                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
-                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
+                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/9504fa9ea681b586028adaaa0877db4aecf32bad",
+                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad",
                 "shasum": ""
             },
             "require": {
@@ -839,8 +839,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Cron": "src/"
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -859,7 +859,7 @@
                 "cron",
                 "schedule"
             ],
-            "time": "2016-01-26 21:23:30"
+            "time": "2017-01-23 04:29:33"
         },
         {
             "name": "nesbot/carbon",
@@ -2237,12 +2237,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dweidner/laravel-goutte.git",
-                "reference": "929d4740785957b9abf9f09cdead6bd393894744"
+                "reference": "afe42b8c7bb326c5b4d1c913d6ad93ff70fa3cc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dweidner/laravel-goutte/zipball/929d4740785957b9abf9f09cdead6bd393894744",
-                "reference": "929d4740785957b9abf9f09cdead6bd393894744",
+                "url": "https://api.github.com/repos/dweidner/laravel-goutte/zipball/afe42b8c7bb326c5b4d1c913d6ad93ff70fa3cc2",
+                "reference": "afe42b8c7bb326c5b4d1c913d6ad93ff70fa3cc2",
                 "shasum": ""
             },
             "require": {
@@ -2253,7 +2253,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -2268,15 +2268,18 @@
             "authors": [
                 {
                     "name": "Daniel Weidner",
-                    "email": "hallo@danielweidner.de"
+                    "email": "hallo@danielweidner.de",
+                    "homepage": "http://danielweidner.de"
                 }
             ],
             "description": "Laravel 5 package for Gouette, a simple PHP Web Scraper",
+            "homepage": "https://github.com/dweidner/laravel-goutte",
             "keywords": [
                 "goutte",
-                "laravel"
+                "laravel",
+                "weidner"
             ],
-            "time": "2016-03-30 14:59:10"
+            "time": "2017-01-22 12:55:51"
         }
     ],
     "packages-dev": [
@@ -2946,16 +2949,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.31",
+            "version": "4.8.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "98b2b39a520766bec663ff5b7ff1b729db9dbfe3"
+                "reference": "f5e1941a8dacf0d904753ff2895c6f68e54bcee1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/98b2b39a520766bec663ff5b7ff1b729db9dbfe3",
-                "reference": "98b2b39a520766bec663ff5b7ff1b729db9dbfe3",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f5e1941a8dacf0d904753ff2895c6f68e54bcee1",
+                "reference": "f5e1941a8dacf0d904753ff2895c6f68e54bcee1",
                 "shasum": ""
             },
             "require": {
@@ -3014,7 +3017,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-09 02:45:31"
+            "time": "2017-01-22 08:37:05"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
